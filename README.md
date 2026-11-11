@@ -6,10 +6,10 @@
 
 ## 完整工程与视频
 
-请打开本仓库的 **Releases** 下载最终交付。大文件保存在 Release 附件中，确保完整场景和材质不因 Git 单文件限制而被删减。
+请打开 [最终交付 Release v1.0.0](https://github.com/Changhongyin/Sensory-Garden-Restaurant/releases/tag/v1.0.0) 下载全部附件。大文件保存在 Release 附件中，确保完整场景和材质不因 Git 单文件限制而被删减。
 
-- `Sensory-Garden-Final-Source.zip`：完整源码与可移植 Blender 工程，内含 `render/Garden_Final_Packed.blend`。
-- `Sensory-Garden-Demo-4K60.mp4`：3840×2160，60fps，40秒，2400个实际三维输出帧。
+- [下载完整工程包](https://github.com/Changhongyin/Sensory-Garden-Restaurant/releases/download/v1.0.0/Sensory-Garden-Final-Source.zip)：完整源码与可移植 Blender 工程，内含 `render/Garden_Final_Packed.blend`。
+- [下载4K/60fps Demo](https://github.com/Changhongyin/Sensory-Garden-Restaurant/releases/download/v1.0.0/Sensory-Garden-Demo-4K60.mp4)：3840×2160，60fps，40秒，2400个实际三维输出帧。
 - `Project-Report.pdf`：11页项目报告。
 - `Sensory-Garden-Final-Images.zip`：原生2160×2700、Cycles 256采样全景PNG与线性EXR，以及4K网页画面。
 - `SHA256SUMS.txt`：附件校验值。
@@ -52,3 +52,9 @@ blender -b --python render/render_final.py -- --profile final --threads 8
 - `manifest.json`记录完整交付源码包的文件校验；其中大体积Blender场景在Release完整包中。
 
 第三方素材及依赖遵循各自许可；未为整个项目额外指定开源许可。用户提供的设计参考仅作为设计输入及过程说明。
+
+## 赛事项目链接
+
+https://github.com/Changhongyin/Sensory-Garden-Restaurant
+
+项目源代码栏选择“填写链接”，填入以上仓库地址即可；完整工程在仓库关联的Release中提供。
