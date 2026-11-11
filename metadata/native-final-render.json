@@ -1,0 +1,27 @@
+{
+  "status": "rendered",
+  "profile": "final",
+  "width": 2160,
+  "height": 2700,
+  "samples": 256,
+  "seconds": 5747.9579429626465,
+  "scene_sha256": "4e95e2032dd77b1384ce233e8791ead2a3a73ccac0f0d06a1ce598d96866d7ed",
+  "packed_images": 63,
+  "missing_images": [],
+  "blender": "5.2.3 LTS",
+  "view": "AgX",
+  "look": "AgX - Punchy",
+  "exposure": 0.3499999940395355,
+  "threads": 8,
+  "note": "Native final render completed and inspected. 3840x4800/512 ultra remains an available, unexecuted configuration.",
+  "backend": "CPU",
+  "executed_script_sha256": "40a9d4109a12dd07ce4f33b1f31a6e1559d42220d69c9d71168fe0f0db4175ad",
+  "image_sha256": "72116e3e25fb70d9b536bde2fc8127893bfe8d0257618848a2fbd7ee403db2e9",
+  "exr_sha256": "3f27e18daf3ad8838f9f9e28c8bdf12150fa3be0a99889d92f1c4ff655257217",
+  "resource_validation": {
+    "exit_code": 0,
+    "peak_rss_gib": 8.728179931640625,
+    "guard": null,
+    "minimum_available_gib": 3.6343231201171875
+  }
+}

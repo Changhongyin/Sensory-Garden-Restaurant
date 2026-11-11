@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "decoded_frames": 2400,
+  "duration_seconds": 40,
+  "dup_frames": 0,
+  "drop_frames": 0,
+  "errors": 0,
+  "native_input_verified_frames": 2400
+}

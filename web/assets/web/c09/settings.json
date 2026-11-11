@@ -1,0 +1,269 @@
+{
+  "label": "C09 Mac full-scene web derivative from frozen C07r12; verified master preserved.",
+  "environment": {
+    "file": "c08r1_env_bg_linear_2048x1024.hdr",
+    "bytes": 2614707,
+    "sha256": "2d9c91687d79438225c164682cb054181b0f64717dc4a7c689d0bd62d0bc228d",
+    "lighting_file": "c08r1_env_light_linear_2048x1024.hdr",
+    "lighting_bytes": 187226,
+    "lighting_sha256": "0912881f4eb975852d4fa0b9a9432164e3b8e1d56c7239fdc741ec6b5f595479",
+    "rotation_y": 0.0,
+    "background_intensity": 1.0,
+    "environment_intensity": 0.65,
+    "note": "background = camera-ray branch, lighting = Is-Camera-Ray->0 branch of the frozen C07r12 world; both LINEAR (own RGBE writer; the C08 maps were display-encoded by Blender's .hdr writer). IBL unscaled; occlusion from per-vertex _SKYVIS."
+  },
+  "sun": {
+    "direction_to_sun": [
+      -0.2696,
+      0.2079,
+      -0.9403
+    ],
+    "color_linear": [
+      1.0,
+      0.72,
+      0.45
+    ],
+    "intensity": 24.0,
+    "source": "SUN_c06_GoldenHour energy 24, az/el from master",
+    "shadow_map": 2048,
+    "web_intensity": 10
+  },
+  "view": {
+    "note": "Full-scene orbit presets defined in app.js; pilot crop restrictions superseded."
+  },
+  "web_materials": {
+    "ARCH_Membrane_v04r1_CleanTranslucentPVC": {
+      "kind": "membrane",
+      "transmit_sun": 0.35,
+      "transmit_sky_rgb": [
+        0.1,
+        0.085,
+        0.07
+      ],
+      "cast_shadow": true,
+      "note": "GLB carries KHR transmission 0.55; viewer adds back-lit diffuse term"
+    },
+    "ARCH_Membrane_v08r5_ReinforcementDoubler": {
+      "kind": "membrane",
+      "transmit_sun": 0.35,
+      "transmit_sky_rgb": [
+        0.1,
+        0.085,
+        0.07
+      ],
+      "cast_shadow": true,
+      "note": "GLB carries KHR transmission 0.55; viewer adds back-lit diffuse term"
+    },
+    "ARCH_Glass_LowIron_Laminated": {
+      "kind": "glass",
+      "mode": "transmission",
+      "opacity": 0.18,
+      "envMapIntensity": 1.0
+    },
+    "TW_Glass_Clear_v06r1_M03": {
+      "kind": "glass",
+      "mode": "transmission",
+      "opacity": 0.18,
+      "envMapIntensity": 1.0
+    },
+    "TW_Glass_Votive_Textured.002": {
+      "kind": "glass",
+      "mode": "transmission",
+      "opacity": 0.18,
+      "envMapIntensity": 1.0
+    },
+    "TW_Water.002": {
+      "kind": "glass",
+      "mode": "transmission",
+      "opacity": 0.18,
+      "envMapIntensity": 1.0
+    },
+    "grass_medium_01": {
+      "kind": "foliage",
+      "alpha_test": 0.5,
+      "transmit_sun": 0.25,
+      "transmit_sky_rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "shrub_01": {
+      "kind": "foliage",
+      "transmit_sun": 0.25,
+      "transmit_sky_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha_test": 0.5
+    },
+    "Material_0": {
+      "kind": "foliage",
+      "transmit_sun": 0.25,
+      "transmit_sky_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Material_0.001": {
+      "kind": "foliage",
+      "transmit_sun": 0.25,
+      "transmit_sky_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "C08_grass_blades": {
+      "kind": "foliage",
+      "transmit_sun": 0.25,
+      "transmit_sky_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "no_shadow": true
+    }
+  },
+  "bounds_three": [
+    [
+      -180,
+      -1.375,
+      -260
+    ],
+    [
+      220,
+      53.8,
+      1600
+    ]
+  ],
+  "display": {
+    "mode": "master_view_lut",
+    "lut_file": "c08r1_master_view_lut_65.png",
+    "lut_sha256": "32b6530ff736527be6d5464aeafa3808e198142a50e0f65b5c3c66406ec0302d",
+    "lut_bytes": 98295,
+    "N": 65,
+    "minEv": -12.0,
+    "maxEv": 8.0,
+    "includes_exposure": true,
+    "view": {
+      "view": "AgX",
+      "look": "AgX - Punchy",
+      "exposure": 0.3499999940395355,
+      "gamma": 1.0,
+      "display": "sRGB",
+      "curve": false
+    },
+    "note": "scene rendered linear (HalfFloat, NoToneMapping) then ONE post pass: log2 shaper -> trilinear 3D LUT -> display-encoded sRGB written as-is (no second tone map / encode)",
+    "test_vectors": [
+      {
+        "in_linear": [
+          0.8818,
+          0.4325,
+          0.2007
+        ],
+        "expected_8bit": [
+          185,
+          146,
+          115
+        ],
+        "cycles_8bit": [
+          186,
+          146,
+          104
+        ],
+        "patch": "interior_360_40"
+      },
+      {
+        "in_linear": [
+          2.6614,
+          1.148,
+          0.0813
+        ],
+        "expected_8bit": [
+          227,
+          184,
+          134
+        ],
+        "cycles_8bit": [
+          231,
+          192,
+          141
+        ],
+        "patch": "interior_200_60"
+      },
+      {
+        "in_linear": [
+          1.01,
+          0.5044,
+          0.1178
+        ],
+        "expected_8bit": [
+          192,
+          151,
+          99
+        ],
+        "cycles_8bit": [
+          194,
+          145,
+          99
+        ],
+        "patch": "interior_560_70"
+      },
+      {
+        "in_linear": [
+          1.3107,
+          0.5952,
+          0.0537
+        ],
+        "expected_8bit": [
+          204,
+          157,
+          91
+        ],
+        "cycles_8bit": [
+          200,
+          158,
+          99
+        ],
+        "patch": "home_600_40"
+      },
+      {
+        "in_linear": [
+          2.9876,
+          0.9219,
+          0.0
+        ],
+        "expected_8bit": [
+          234,
+          176,
+          123
+        ],
+        "cycles_8bit": [
+          234,
+          176,
+          123
+        ],
+        "patch": "home_680_120"
+      }
+    ]
+  },
+  "skyvis": {
+    "required": false,
+    "note": "Pilot sky visibility is not transferred to unrelated locations."
+  },
+  "lod": {
+    "switch_near_m": 10.0,
+    "hysteresis_m": 1.0,
+    "note": "per plant group exactly one LOD per instance; far = C08 LOD, near = C08r1 high-detail"
+  },
+  "fill": null,
+  "context_ground_linear": [
+    0.075,
+    0.12,
+    0.03
+  ],
+  "web_optical_note": "Thin membrane uses alpha plus bounded back-lighting; glazing alpha uses specular reflections, avoiding full-scene refraction double pass. Offline Cycles reference is separately labelled."
+}

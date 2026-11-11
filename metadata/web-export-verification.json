@@ -1,0 +1,120 @@
+{
+  "files": {
+    "architecture.glb": {
+      "sha256": "98739dacf212d45e94147cfd2a9910c90d3d8b0bb1ba9e267fbed535e772d3f2",
+      "bytes": 18236856,
+      "reachable_nodes": 434,
+      "total_nodes": 434,
+      "render_objects_after_instance_expansion": 2412,
+      "all_nodes_reachable": true
+    },
+    "vegetation.glb": {
+      "sha256": "b8244e4053b53d843afb5afddb33d5aa6dda22ff5350d9585d55eaeb9655310b",
+      "bytes": 8030852,
+      "reachable_nodes": 36,
+      "total_nodes": 36,
+      "render_objects_after_instance_expansion": 36,
+      "all_nodes_reachable": true
+    },
+    "distant-land.glb": {
+      "sha256": "0071d8eac244c2e6f8de78ca5f2a3c81155bc94e2089c003d3e865180e6aded4",
+      "bytes": 11552928,
+      "reachable_nodes": 1,
+      "total_nodes": 1,
+      "render_objects_after_instance_expansion": 1,
+      "all_nodes_reachable": true
+    },
+    "near-trees.glb": {
+      "sha256": "1f62a7496bbd567679735acb1adb337b3b09b38fee6e8535b2fb032db2fa2244",
+      "bytes": 6329644,
+      "reachable_nodes": 2,
+      "total_nodes": 2,
+      "render_objects_after_instance_expansion": 2,
+      "all_nodes_reachable": true
+    }
+  },
+  "roundtrip": {
+    "architecture.glb": {
+      "meshes": 2412,
+      "unique_meshes": 433,
+      "materials": 43,
+      "images": 12,
+      "bad_positions": [],
+      "missing_images": [],
+      "bounds": [
+        [
+          -180.0,
+          -140.0,
+          -1.375
+        ],
+        [
+          220.0,
+          260.0,
+          6.046875
+        ]
+      ]
+    },
+    "vegetation.glb": {
+      "meshes": 36,
+      "unique_meshes": 36,
+      "materials": 13,
+      "images": 17,
+      "bad_positions": [],
+      "missing_images": [],
+      "bounds": [
+        [
+          -10.1796875,
+          -19.734375,
+          -0.6611328125
+        ],
+        [
+          516.5,
+          837.5,
+          6.0
+        ]
+      ]
+    },
+    "distant-land.glb": {
+      "meshes": 1,
+      "unique_meshes": 1,
+      "materials": 1,
+      "images": 0,
+      "bad_positions": [],
+      "missing_images": [],
+      "bounds": [
+        [
+          -1600.0,
+          -1598.0,
+          -2.182373046875
+        ],
+        [
+          1600.0,
+          1602.0,
+          53.782840728759766
+        ]
+      ]
+    },
+    "near-trees.glb": {
+      "meshes": 2,
+      "unique_meshes": 2,
+      "materials": 6,
+      "images": 6,
+      "bad_positions": [],
+      "missing_images": [],
+      "bounds": [
+        [
+          -1.9921875,
+          -2.95703125,
+          -0.0262451171875
+        ],
+        [
+          2.0859375,
+          1.375,
+          4.5390625
+        ]
+      ]
+    }
+  },
+  "master_sha256": "921415b83b045c8cec47ef8661d622859ce00635b4da5916282119826725288a",
+  "seconds": 5.823781251907349
+}

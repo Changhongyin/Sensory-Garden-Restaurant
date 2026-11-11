@@ -1,0 +1,73 @@
+{
+  "status": "ok",
+  "first_complete_3d_seconds": 0.5552999999988825,
+  "one_percent_low_fps": 29.239766081870723,
+  "pixel_ratio": 1,
+  "renderer": "WebKit WebGL",
+  "lod": [
+    {
+      "total": 917,
+      "near": 0,
+      "far": 917,
+      "exclusive": true
+    },
+    {
+      "total": 1735,
+      "near": 0,
+      "far": 1735,
+      "exclusive": true
+    },
+    {
+      "total": 237,
+      "near": 0,
+      "far": 237,
+      "exclusive": true
+    }
+  ],
+  "resource_bytes": 50313718,
+  "duration_s": 35.2245,
+  "viewport": [
+    1579,
+    810
+  ],
+  "buffer": [
+    1579,
+    810
+  ],
+  "frames": 1815,
+  "fps": 55.22323574692852,
+  "p95": 33.29999999999927,
+  "p99": 34.20000000000073,
+  "console": [],
+  "probes": [
+    {
+      "view": "overview",
+      "calls": 256,
+      "triangles": 12114028
+    },
+    {
+      "view": "landscape",
+      "calls": 260,
+      "triangles": 11318426
+    },
+    {
+      "view": "courtyard",
+      "calls": 240,
+      "triangles": 10283763
+    },
+    {
+      "view": "detail",
+      "calls": 221,
+      "triangles": 9509235
+    },
+    {
+      "view": "overview",
+      "calls": 256,
+      "triangles": 12114028
+    }
+  ],
+  "plants": 6887,
+  "trees": 2889,
+  "visible": "visible",
+  "focus": true
+}

@@ -1,0 +1,63 @@
+{
+  "original_master_sha256": "921415b83b045c8cec47ef8661d622859ce00635b4da5916282119826725288a",
+  "packed_file": "Garden_Final_Packed.blend",
+  "packed_sha256": "4e95e2032dd77b1384ce233e8791ead2a3a73ccac0f0d06a1ce598d96866d7ed",
+  "images": 62,
+  "unpacked_file_images": [],
+  "libraries": 0,
+  "instancing_fix": {
+    "meshes_relinked": 7,
+    "objects_relinked": 290,
+    "detail": {
+      "DM_Table_Top.002": {
+        "objects": 15,
+        "materials": [
+          "DM_Oak_Top_v06r1",
+          "DM_Oak_Top_v06r1"
+        ]
+      },
+      "DM_Chair_Upholstered_Mesh.002": {
+        "objects": 70,
+        "materials": [
+          "DM_Chair_Lux3D_PBR_v06r1_M03"
+        ]
+      },
+      "TW_Plate_Dinner.002": {
+        "objects": 70,
+        "materials": [
+          "TW_Stoneware_Glaze_v06r1_M03",
+          "TW_Stoneware_Unglazed_Foot.002"
+        ]
+      },
+      "TW_Plate_Side.002": {
+        "objects": 30,
+        "materials": [
+          "TW_Stoneware_Glaze_v06r1_M03",
+          "TW_Stoneware_Unglazed_Foot.002"
+        ]
+      },
+      "TW_Tumbler.002": {
+        "objects": 70,
+        "materials": [
+          "TW_Glass_Clear_v06r1_M03"
+        ]
+      },
+      "TW_Vase_Glass.002": {
+        "objects": 25,
+        "materials": [
+          "TW_Glass_Clear_v06r1_M03"
+        ]
+      },
+      "DM_Table_Top_4T_Mesh_v07r1": {
+        "objects": 10,
+        "materials": [
+          "DM_Oak_Top_v06r1",
+          "DM_Oak_Top_v06r1"
+        ]
+      }
+    },
+    "skipped_inconsistent": {},
+    "note": "render-time only, in memory; the .blend is not saved"
+  },
+  "changes": "External images packed. Shader-equivalent object material slots relinked to mesh data. Heavy geometry nodes disabled only in editing viewport; render flags preserved. Output profile 256 samples / denoise / 2K texture cap / CPU8. Master unchanged."
+}

@@ -1,0 +1,132 @@
+{
+  "status": "pass",
+  "final_location": true,
+  "identical_runtime_and_source_web": true,
+  "checks": [
+    {
+      "url": "/assets/architecture.glb",
+      "bytes": 18236856,
+      "sha256": "98739dacf212d45e94147cfd2a9910c90d3d8b0bb1ba9e267fbed535e772d3f2"
+    },
+    {
+      "url": "/assets/c08r1_env_bg_linear_2048x1024.hdr",
+      "bytes": 2614707,
+      "sha256": "2d9c91687d79438225c164682cb054181b0f64717dc4a7c689d0bd62d0bc228d"
+    },
+    {
+      "url": "/assets/c08r1_env_light_linear_2048x1024.hdr",
+      "bytes": 187226,
+      "sha256": "0912881f4eb975852d4fa0b9a9432164e3b8e1d56c7239fdc741ec6b5f595479"
+    },
+    {
+      "url": "/assets/c08r1_master_view_lut_65.png",
+      "bytes": 98295,
+      "sha256": "32b6530ff736527be6d5464aeafa3808e198142a50e0f65b5c3c66406ec0302d"
+    },
+    {
+      "url": "/assets/cover_C07r12_panorama_2160x2700.webp",
+      "bytes": 1909148,
+      "sha256": "7a0b6fe072b7ffd6464a6a044cc4a8cd40b0091d929322beff4e140fb9fdb493"
+    },
+    {
+      "url": "/assets/distant-land.glb",
+      "bytes": 11552928,
+      "sha256": "0071d8eac244c2e6f8de78ca5f2a3c81155bc94e2089c003d3e865180e6aded4"
+    },
+    {
+      "url": "/assets/grass-points.json",
+      "bytes": 888415,
+      "sha256": "a63bb5b64fb4c1ff19ed08a6c19a40ab5891cec7a5a016ae62dcfbac8cb6dbe9"
+    },
+    {
+      "url": "/assets/near-trees.glb",
+      "bytes": 6329644,
+      "sha256": "1f62a7496bbd567679735acb1adb337b3b09b38fee6e8535b2fb032db2fa2244"
+    },
+    {
+      "url": "/assets/scene.json",
+      "bytes": 1658056,
+      "sha256": "5ce89ad0d81b564c8dd2637fe053a56385908ceb4f85e32ecd2ac8fccb22eee8"
+    },
+    {
+      "url": "/assets/settings.json",
+      "bytes": 6123,
+      "sha256": "ded4ad4a6e9ca28d19bc7a42dae026a517f6b22c115a9ff13c8087fcde74f84d"
+    },
+    {
+      "url": "/assets/source-object-map.json",
+      "bytes": 374718,
+      "sha256": "4391eaa2cecf1395f036ff1a8220ef7b3090fee0239d8007342cea255d611f80"
+    },
+    {
+      "url": "/assets/station-layout.json",
+      "bytes": 85905,
+      "sha256": "556623d4160f70bd02a544fd3ed4e722079f8a2aba429acec05a7a9336241a03"
+    },
+    {
+      "url": "/assets/tree-11.png",
+      "bytes": 220232,
+      "sha256": "fa398ff892aa8483c2a5676fec624888b0b8f21c4cd83ce400d2c9efe5895967"
+    },
+    {
+      "url": "/assets/tree-3.png",
+      "bytes": 251410,
+      "sha256": "426708f13836e5da0b5c995cc055483d3fba475cfe8bdd691e5071110f459d82"
+    },
+    {
+      "url": "/assets/tree-4.png",
+      "bytes": 209962,
+      "sha256": "531689aa48c804ee84f13413481ff48674e6410f66f18caba6e2f9100d97a533"
+    },
+    {
+      "url": "/assets/vegetation.glb",
+      "bytes": 8030852,
+      "sha256": "b8244e4053b53d843afb5afddb33d5aa6dda22ff5350d9585d55eaeb9655310b"
+    },
+    {
+      "url": "/app.js",
+      "bytes": 25093,
+      "sha256": "0437da4f888dcd4fe64b18cfb6c3662242883961468a60c3e4806981619c6b05"
+    },
+    {
+      "url": "/index.html",
+      "bytes": 4265,
+      "sha256": "65b4293b0e3f84c6e3ada40b7b20c19b7ffeb7dc370ee477612bc1c37a787ae0"
+    },
+    {
+      "url": "/vendor/jsm/controls/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "url": "/vendor/jsm/libs/meshopt_decoder.module.js",
+      "bytes": 24848,
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c"
+    },
+    {
+      "url": "/vendor/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "url": "/vendor/jsm/loaders/HDRLoader.js",
+      "bytes": 12456,
+      "sha256": "d7053cfc4019f520335ae07e0fe82b4ef5a66b6766e8b253d066616184995e89"
+    },
+    {
+      "url": "/vendor/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "url": "/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "url": "/vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    }
+  ]
+}

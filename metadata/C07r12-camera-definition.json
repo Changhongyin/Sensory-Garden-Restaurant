@@ -1,0 +1,12 @@
+{
+ "camera_location": [3.209, -37.657, 17.755],
+ "yaw_deg": 97.51,
+ "pitch_deg": -20.0,
+ "roll_deg": 0.0,
+ "blender_lens_mm_sensor36_fit_auto": 35.0,
+ "rms_px": null,
+ "derived_from": "cam_v09b_c06_production_hero.json (unchanged): same location, yaw and lens; pitch -22.5 -> -20.0 (+2.5 deg). That file in turn derives from cam_v09a_alt_horizon.json.",
+ "justification": "C07 single authorised camera revision: reference 05's sky/sun relationship (sun glow and cloud band inside the frame top, ~12-15 % sky) cannot be shown with the C06 pitch (sky band ~10 %, the sky image's sun at 6.1 deg sits just above the frame). Pitch-only change keeps the architecture dominant and complete; closer/lower variants cropped the lower lobe (source/claude/frame_study_c07.py output in the report).",
+ "framing_study": "Projected (geometric study, no render): architecture x 0.10-0.88, y 0.38-0.90; sky/hills band ~0.15; sun (az 106, el 6.1) at x 0.30, y 0.02 (just inside the top edge); SE boardwalk lead-in from the lower right unchanged.",
+ "note": "v09b C07 PRODUCTION HERO (new file; C06 hero and all historical cameras unchanged; nothing in the scene moved for this view). Review size 960x1200."
+}
