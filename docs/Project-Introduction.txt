@@ -10,7 +10,8 @@
 必交材料对应
 Demo / 宣传视频：01_Demo/栖光之间_Demo_4K60.mp4
 项目报告书：02_项目报告书.pdf
-项目源代码：03_完整代码与高清渲染工程.zip
+项目源代码（选择“填写链接”）：https://github.com/Changhongyin/Sensory-Garden-Restaurant
+完整工程下载：仓库 Release v1.0.0 中的 Sensory-Garden-Final-Source.zip；本地 03_完整代码与高清渲染工程.zip 同时保留。
 生态合作设备/技术：按实际使用填写；未使用则选“无”。
 
 交互 Demo
